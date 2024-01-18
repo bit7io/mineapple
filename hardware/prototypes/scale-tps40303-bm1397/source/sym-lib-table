@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "bitaxe")(type "KiCad")(uri "${KIPRJMOD}/bitaxe.kicad_sym")(options "")(descr ""))
+  (lib (name "mineapple")(type "KiCad")(uri "${KIPRJMOD}/mineapple.kicad_sym")(options "")(descr ""))
+)

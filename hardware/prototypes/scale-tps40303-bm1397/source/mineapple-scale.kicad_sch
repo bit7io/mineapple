@@ -1,0 +1,65 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 9d1a6c31-bbaf-43f4-a770-54de3113e26d)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 105.41 17.78) (size 22.86 24.13) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 4ef323a7-de52-4c29-be8f-27fef15d8322)
+    (property "Sheetname" "Power Supplies" (at 105.41 17.0684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "mas_power.kicad_sch" (at 105.41 42.4946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "mineapple-scale"
+        (path "/9d1a6c31-bbaf-43f4-a770-54de3113e26d" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 105.41 50.8) (size 22.86 22.86) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 7214fc29-6c58-470b-8728-9fc705875e95)
+    (property "Sheetname" "MCU" (at 105.41 50.0884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "mas_mcu.kicad_sch" (at 105.41 74.2446 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "mineapple-scale"
+        (path "/9d1a6c31-bbaf-43f4-a770-54de3113e26d" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 104.14 82.55) (size 25.4 24.13) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid b3db0bd2-f147-4382-8595-de3e68ec72d3)
+    (property "Sheetname" "BM1397" (at 104.14 81.8384 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "mas_bm1397.kicad_sch" (at 104.14 107.2646 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "mineapple-scale"
+        (path "/9d1a6c31-bbaf-43f4-a770-54de3113e26d" (page "4"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

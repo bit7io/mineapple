@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "mineapple")(type "KiCad")(uri "${KIPRJMOD}/mineapple.pretty")(options "")(descr ""))
+  (lib (name "bitaxe")(type "KiCad")(uri "${KIPRJMOD}/bitaxe.pretty")(options "")(descr ""))
+)
